@@ -2,19 +2,14 @@
 //  GEOSwift.h
 //  GEOSwift
 //
-//  Created by Andrea Cremaschi on 23/05/15.
-//  Copyright (c) 2015 andreacremaschi. All rights reserved.
-//
 
-#import <UIKit/UIKit.h>
-@import geos;
+@import Foundation;
 
 //! Project version number for GEOSwift.
-FOUNDATION_EXPORT double HumboldtVersionNumber;
+FOUNDATION_EXPORT double GEOSwiftVersionNumber;
 
 //! Project version string for GEOSwift.
-FOUNDATION_EXPORT const unsigned char HumboldtVersionString[];
+FOUNDATION_EXPORT const unsigned char GEOSwiftVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <GEOSwift/PublicHeader.h>
-
-
+@import geos;
